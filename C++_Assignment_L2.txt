@@ -1,0 +1,107 @@
+-------------------------------|    C++ Assignment 2    |-------------------------------
+
+Ques 1:  Find the output for this code .
+
+int x;
+cout<<”Enter first number\n”;
+cin>>x;  // user will give ‘x’ a value.
+int y,m;
+cout<<”Enter second number and value for taking modulus\n”;
+cin>>y>>m;  // user will give ‘y’ a value.
+int Z= (x*y)%m;
+cout<<”Output is :”<<Z;
+
+Ans- Suppose the user gives 12 as value for x, 4 as y and value
+    for taking modulus is 3.
+    Thus, the equation becomes (12 * 4)%3
+    Since, parenthesis has the highest precedence among these, thus operations in 
+    parenthesis will take place first.
+    => 48 % 3
+    => 0
+
+----------------------------------------------------------------------------------------------
+Ques 2: Find the output for this code .
+
+
+int x;
+cout<<”Enter first number\n”;
+cin>>x;  // user will give ‘x’ a value.
+int y;
+cout<<”Enter second number\n”;
+cin>>y;  // user will give ‘y’ a value.
+cout<<(x! = y)<<” “<<(x>=y);
+
+Ans- Let us consider that user gives value 32 to x and 4 to y. Now, (x != y) is True as 32
+    is not equal to 4, thus it returns 1. Then " " is encountered. Next, (x >= y) is also
+    True as 32 > 4. So, the final output will be 1 1. 
+
+----------------------------------------------------------------------------------------------
+Ques 3: Find the output for this code .
+
+
+int x,y;
+cin>>x>>y;
+x+=y;
+x-=y;
+x%=y;
+cout<<x;
+
+Ans- Suppose user gives x = 10 and y = 5.
+    Then is goes to line 3, where it encounters x+=y => x = x+y
+    Thus x = 10+5 => x = 15.
+    Then it goes to line 4, where it encounters x-=y => x = x-y
+    Thus x = 15-5 => x = 10.
+    Then it goes to line 5, where it encounters x%=y => x = x%y
+    Thus x = 10%5 => x = 0.  
+    Thus, the final output will be 0.  
+----------------------------------------------------------------------------------------------
+Ques 4: WAP for finding the volume of cylinder by taking radius and height as input.
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int rad, height;
+    const float PI = 3.14;
+    float vol;
+    cout<<"Enter the value for radius of cylinder: "<<endl;
+    cin>>rad;
+    cout<<"Enter the value for height of cylinder: "<<endl;
+    cin>>height;
+    vol = PI*r*r*h;
+    cout<<"Volume of cylinder is: "<<vol<<endl;
+}
+----------------------------------------------------------------------------------------------
+Ques 5: WAP to find the difference between ASCII of two characters ,take them as input .
+
+#include<iostream>
+#include<math.h>
+using namespace std;
+
+int main()
+{
+    char p,q;
+    int a,b;
+    cout<<"Enter value for char 1";
+    cin>>p;
+    cout<<"Enter value for char 2";
+    cin>>q;
+    a = (int)p;
+    b = (int)q;
+    cout<<"The difference between their ASCII values is: "<< abs(a-b)<<"."<<endl;
+}
+----------------------------------------------------------------------------------------------
+Ques: Find the output.
+
+int i =  ( 4 + 7 / 5 * 6 * 6+9  )% 100  ;
+cout<<i;
+
+Ans- Since, parenthesis has the highest precedence, thus the equation in it is executed first.
+=> (4 + 1 * 6 * 6 + 9)%100
+=> (4 + 6 * 6 + 9)%100
+=> (4 + 36 + 9)%100
+=> (49)%100
+=> 49. By using property if a < b, then a%b = a.
+Thus, final answer is 49.
+----------------------------------------------------------------------------------------------

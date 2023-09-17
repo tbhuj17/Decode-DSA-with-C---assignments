@@ -1,0 +1,9 @@
+Ques: How much space does following data types take ?
+int
+bool
+float
+
+int takes 4 bytes.
+float takes 4 bytes.
+bool takes 1 byte.
+The memory occupied depends on the system.

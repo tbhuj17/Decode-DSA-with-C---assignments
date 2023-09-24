@@ -1,0 +1,7 @@
+Q5: Is the following program snippet correct?
+
+int a = 10, b = 20;
+int *ptr;
+*ptr = 5;
+
+Answer:- No, as the pointer ptr is not pointing to any memory location. 

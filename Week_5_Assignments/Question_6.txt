@@ -1,0 +1,17 @@
+Predict the output:- 
+
+int main()
+{
+int sub[50], i ;
+for ( i = 0 ; i <= 48 ; i++ ) ;
+{
+sub[i] = i ;
+cout<<sub[i]<<endl ;
+}
+return 0;
+}
+
+Answer:- The answer is 49 will be printed as for loop is empty, thus it will iterate till end and 
+        value of i will be 49, which will be stored at position sub[49], and hence 49 will be printed 
+        in output.  
+        

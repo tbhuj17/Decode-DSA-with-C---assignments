@@ -1,0 +1,11 @@
+double getAverage(int arr[], int size);
+int main () {
+int balance[5] = {1000, 2, 3, 17, 50};
+double avg;
+avg = getAverage( balance[0], 5 ) ;
+cout << "Average value is: " << avg << endl;
+return 0;
+}
+
+Answer:- The error is in line 5, we are passing a value i.e. balance[0], which is an integer value
+            but the function needs an array or pointer to that array. 

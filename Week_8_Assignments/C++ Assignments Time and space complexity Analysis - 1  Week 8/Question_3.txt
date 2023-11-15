@@ -1,0 +1,8 @@
+Calculate the time complexity for the following code snippet.
+
+int c = 0;
+for(int i = 0; i < n; i += k) {
+c++;
+}
+
+Answer:- O(n/k) = O(n). As the number of operations would be n/k. and which can be equated to n.

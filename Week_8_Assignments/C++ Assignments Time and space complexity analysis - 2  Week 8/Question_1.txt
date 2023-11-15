@@ -1,0 +1,11 @@
+Calculate the time complexity for the following code snippet.
+
+for(int i = 0; i < n; i++) {
+for(int j = 0; j * j < n; j++) {
+cout << “PhysicsWallah ”;
+}
+}
+
+Answer:- O(n√n). As inner loop is independent of outer so outer runs for n times, while 
+        the inner loop runs for √n times, so both gets multiplied. Hence final time 
+        complexity is O(n√n).

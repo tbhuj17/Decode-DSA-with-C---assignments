@@ -1,0 +1,9 @@
+Calculate the time complexity for the following code snippet.
+
+int c = 0;
+for(int i = 0; i < n; i++) {
+c +=i;
+}
+
+Answer:- O(n^2). As the total operations will be equal to n(n-1)/2, which can be equated to 
+        n^2.  

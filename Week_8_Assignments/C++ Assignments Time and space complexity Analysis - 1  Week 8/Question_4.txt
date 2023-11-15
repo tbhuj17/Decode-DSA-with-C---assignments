@@ -1,0 +1,9 @@
+Calculate the time complexity for the following code snippet.
+
+int c = 0;
+for(int i = 1; i < n; i *= 2) {
+c++;
+}
+
+Answer:- O(log n). As the number is increasing in the powers of 2. Thus number of operations will
+        be equal to log to base 2 n, which can be equated to O(log n).

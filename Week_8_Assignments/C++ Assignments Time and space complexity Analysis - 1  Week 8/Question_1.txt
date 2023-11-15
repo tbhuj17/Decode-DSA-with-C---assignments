@@ -1,0 +1,9 @@
+Calculate the time complexity for the following code snippet.
+int c = 0;
+for(int i = n; i > 0; i /= 2) {
+c++;
+}
+
+
+Answer:- O(log n) as the series is getting divided by powers of 2 and the number of operations will
+        be the same the powers. 

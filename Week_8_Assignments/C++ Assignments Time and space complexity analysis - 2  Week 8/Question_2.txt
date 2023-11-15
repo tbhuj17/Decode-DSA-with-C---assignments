@@ -1,0 +1,12 @@
+Calculate the time complexity for the following code snippet.
+
+int c = 0;
+for(int i = 0; i < n; i++) {
+for(int j = 1; j < n; j *= 2) {
+c++;
+}
+}
+
+Answer:- O(n*log n). As the inner loop runs for n times which is equated to 2^x, by which 
+            x becomes log n. And the inner loop is independent of outer thus both gets multiplied
+            in return the time complexity becomes O(n*log n).

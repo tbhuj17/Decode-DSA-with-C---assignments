@@ -1,0 +1,11 @@
+You have a sorted array of infinite numbers, how would you search an element in the array?
+
+Answer:- If the array is sorted, then we can use the binary search for this searching.
+        It works as follows. Assign two pointers viz lo = 0, hi = n-1.(n = number of elements.)
+        - Compare mid with target element. (element to be searched).
+        - if mid == target, return mid index.
+        - if mid < target, assign lo = mid + 1 and repeat the process from step 2.
+        - if mid > target, assign hi = mid - 1 and repeat the process from step 2.
+        This way it will eventually find the element or return -1 when no such element exists.
+        But since the question says "sorted array of infinite numbers", I am 
+        assuming that there are only finite numbers present in the array.

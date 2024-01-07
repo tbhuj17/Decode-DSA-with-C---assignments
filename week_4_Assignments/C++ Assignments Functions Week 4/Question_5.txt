@@ -1,9 +1,0 @@
-The minimum number of functions present in any C++ program is:
-0
-1
-2
-Infinite
-
-Ans:- The minimum number of functions present in any C++ program is 1
-    because there will be minimum 1 function i.e. main() function
-    

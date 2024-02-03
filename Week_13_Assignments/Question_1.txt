@@ -1,0 +1,15 @@
+In a singly linked list, deletion of data requires modification of how many pointers?
+1
+2
+3
+Depends upon the node being deleted.
+
+Answer:- 2. As, while deleting any element, we modify 2 pointers. When we have to
+        delete any element from head, then we point the head to head->next.
+
+        When we have to delete an element from tail, then we travel to second last
+        element and then set temp->next = NULL, then point tail to temp, which involves
+        two pointers.
+
+        When we have to delete an element at any index, then we move to idx-1 position, 
+        and then temp->next = temp->next->next. In this way, we delete. 
